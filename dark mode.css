@@ -1,0 +1,11 @@
+body.dark-mode .intro{
+    position: relative;
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+    z-index: 1;
+    background-color: black;
+    margin-top: 100vh;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    color: white;
+}

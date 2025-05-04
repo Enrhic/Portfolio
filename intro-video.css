@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+.intro{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 9% 50px;
+    z-index: 1;
+    background: #FFFFFF;
+    margin-top: 100vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode .intro{
+    background-color: #252D31;
+    color: white;
+}
+body.dark-mode .intro p,
+body.dark-mode .intro h3 {
+    color: white;
+}
+.intro .int{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1% -9.5% 1%;
+    padding: 50px 9% 50px;
+    border-radius: 15px;
+    gap: 20px;
+    background-color: transparent;
+    color: black;
+}
+.intro p{
+    text-align: center;
+    font-size: 16px;
+}
+.intro h3{
+    text-align: center;
+    font-size: 20px;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.connect a{
+    box-sizing: border-box;
+    padding: 5px 160px;
+    border: 2px solid #5876b0;
+    background-color: #222222;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn{
+    white-space: nowrap;
+    font-size: 16px;
+    color: #5876b0;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #5876b0;
+    color: black;
+    box-shadow: 0 0 25px #5876b0;
+}
+.intv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 20px;
+    color: white;
+}
+.intro video{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #5876b0;
+}
+.services{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 0;
+    background-color: white;    
+    min-height: 75vh;
+    padding: 50px 9% 50px;
+    color: black;
+}
+.services h3{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+.columns {
+    display: flex;
+    gap: 50px;
+}
+.services div{
+    display: column;
+    padding: 10px;
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}

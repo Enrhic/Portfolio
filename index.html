@@ -86,5 +86,13 @@
             <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</div>
         </div>
     </section>
+
+    <script>
+        const checkbox = document.getElementById('theme');
+      
+        checkbox.addEventListener('change', () => {
+          document.body.classList.toggle('dark-mode', checkbox.checked);
+        });
+      </script>
 </body>
 </html>

@@ -80,8 +80,7 @@ body {
     transform-origin: 50% 0;
     transform: rotate(0deg) translateY(0.5em);
 }
-  
-/* Sun rays positions */
+
 .theme_icon-part:nth-child(3) { transform: rotate(45deg) translateY(0.5em); }
 .theme_icon-part:nth-child(4) { transform: rotate(90deg) translateY(0.5em); }
 .theme_icon-part:nth-child(5) { transform: rotate(135deg) translateY(0.5em); }
@@ -132,8 +131,7 @@ body {
     box-shadow: 0 0 0 0.125em #5876b0;
     outline: transparent;
 }
-  
-  /* Dark mode activated */
+
 .theme_toggle:checked {
     background-color: hsl(198, 90%, 15%);
 }

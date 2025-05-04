@@ -36,17 +36,7 @@ body {
     pointer-events: none;
     transition: transform var(--transDur) ease-in-out;
 }
-  
-.theme_fill {
-    background-color: var(--bg);
-    display: block;
-    mix-blend-mode: difference;
-    position: fixed;
-    inset: 0;
-    height: 100%;
-    transform: translateX(-100%);
-}
-  
+
 .theme_icon,
 .theme_toggle {
     z-index: 1;
